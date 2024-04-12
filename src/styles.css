@@ -1,0 +1,12 @@
+html {
+  padding: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 20px;
+}
