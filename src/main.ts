@@ -62,10 +62,12 @@ const createNotification = () => {
  * week 14 will be practical and written exam 
  * 
  * things from exam will be from midterm on and things from midterm that we messed up on (which questions from midterm)
- * focus on midterm and new content from midterm on
+ * focus on midterm and new content from midterm on (go over midterm exam and for margin and padding in general if we put
+ * in 4 values, 3 values, or 2 values, which direciton it goes in to apply margin and padding)**
  * 
  * operatiaonl system means mac, windows, or linux and the user permission is going into settings for our browser
- * and OS level settings in our gear icon
+ * and OS level settings in our gear icon (I thought operaitonal system was the gear icon settings for our computer and the user
+ * permission was on our browser)**
  * 
  * the OS level settings is going to our settings in our machine but the browser settings is navigating from the browser to our
  * browser settings
@@ -85,7 +87,7 @@ const createNotification = () => {
  * we need a service worker for notifications (its like a middleman server that runs in the background of our server and its useful for 
  * machine content and have an offline mode for noticatinos and doing notificaions and push notificaitons and they are tricky because
  * they run outside of the context of the webpage and we register them through our website and they run in the background and when using
- * this we should have a incognito window to clear them out and its a big mess)      
+ * this we should have a incognito window to clear them out and its a big mess)**    
  * 
  * our code should be run from a secure context https instead of http (if we make our link from banjo its already https for RIT)
  * vite plugin makes a local certificate and servers it so we can have this on our local host as well (has to be https though)
