@@ -24,9 +24,11 @@ notifyButton.addEventListener('click', () => {
     //not denied could also be default (we have not granted access but we have not denied either so we are in the default 
     //and requestpermission returns 
     //the promise then allows the user to choose to get notifications or not then we get granted then we show the notificaiton and 
-    //if they deny then we are done and don't show the notification)
+    //if they deny then we are done and don't show the notification
     //what does default, denied, and granted do again in terms of notifications 
     //default asks for permission to show a notificaiton or not
+    //why did we have a case for not denied why didnt we have a case for granted, denied, then default****s
+    //do we not have a case for denied because if we press deny we don't do anything****
   } else if (Notification.permission !== 'denied') {
     Notification.requestPermission().then((permission) => {
       if (permission === 'granted') {
